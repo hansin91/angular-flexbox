@@ -1,4 +1,24 @@
 :host {
 	background-color: var(--color-grey-dark-1);
 	flex: 0 0 18%;
+	display: flex;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.side-nav {
+	margin-top: 3.5rem;
+	list-style: none;
+	font-size: 1.4rem;
+}
+
+.legal {
+	font-size: 1.2rem;
+	color: var(--color-grey-light-4);
+	text-align: center;
+	padding: 2.5rem;
 }

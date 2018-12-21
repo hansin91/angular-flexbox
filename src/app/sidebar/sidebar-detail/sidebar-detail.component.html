@@ -1,0 +1,8 @@
+<li class="side-nav__item {{ menu.active ? 'side-nav__item--active':''}}" *ngFor="let menu of menus">
+  <a href="#" class="side-nav__link">
+    <svg class="side-nav__icon">
+        <use attr.xlink:href="{{ menu.img }}#{{ menu.icon }}"></use>
+    </svg>
+    <span>{{ menu.name}}</span>
+  </a>
+</li>
