@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HotelViewComponent } from './hotel-view/hotel-view.component';
 import { ContentComponent } from './content/content.component';
 import { SidebarDetailComponent } from './sidebar/sidebar-detail/sidebar-detail.component';
+import { GalleryComponent } from './hotel-view/gallery/gallery.component';
 import { HotelDetailComponent } from './hotel-view/hotel-detail/hotel-detail.component';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HotelDetailComponent } from './hotel-view/hotel-detail/hotel-detail.com
 		HotelViewComponent,
 		ContentComponent,
 		SidebarDetailComponent,
+		GalleryComponent,
 		HotelDetailComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule ],

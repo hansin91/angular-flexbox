@@ -1,3 +1,24 @@
-<figure class="gallery__item" *ngFor="let hotel of hotels">
-  <img src="{{ hotel.image }}" alt="{{ hotel.alt}}" class="gallery__photo">
-</figure>
+<div class="detail">
+  <div class="description">
+    <p class="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+    </p>
+    <p class="paragraph">
+        Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+    </p>
+    <ul class="list">
+      <li class="list__item" *ngFor="let item of list">{{ item }}</li>
+    </ul>
+    <div class="recommend">
+      <p class="recommend__count">
+        Lucy and 3 other friends recommend this hotel.
+      </p>
+      <div class="recommend__friends">
+        <img src="{{ image.image}}" alt="{{ image.name}}" class="recommend__photo" *ngFor="let image of friendPhotos">
+      </div>
+    </div>
+  </div>
+  <div class="user-reviews">
+    User reviews
+  </div>
+</div>
