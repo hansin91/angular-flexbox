@@ -1,0 +1,10 @@
+:host {
+	display: flex;
+}
+
+.gallery {
+	&__photo {
+		width: 100%;
+		display: block;
+	}
+}
