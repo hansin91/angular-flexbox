@@ -10,6 +10,10 @@ import { ContentComponent } from './content/content.component';
 import { SidebarDetailComponent } from './sidebar/sidebar-detail/sidebar-detail.component';
 import { GalleryComponent } from './hotel-view/gallery/gallery.component';
 import { HotelDetailComponent } from './hotel-view/hotel-detail/hotel-detail.component';
+import { UserReviewComponent } from './hotel-view/user-review/user-review.component';
+import { HotelService } from './services/hotel.service';
+import { MenuService } from './services/menu.service';
+import { ReviewService } from './services/review.service';
 
 @NgModule({
 	declarations: [
@@ -20,10 +24,11 @@ import { HotelDetailComponent } from './hotel-view/hotel-detail/hotel-detail.com
 		ContentComponent,
 		SidebarDetailComponent,
 		GalleryComponent,
-		HotelDetailComponent
+		HotelDetailComponent,
+		UserReviewComponent
 	],
 	imports: [ BrowserModule, AppRoutingModule ],
-	providers: [],
+	providers: [ HotelService, MenuService, ReviewService ],
 	bootstrap: [ AppComponent ]
 })
 export class AppModule {}

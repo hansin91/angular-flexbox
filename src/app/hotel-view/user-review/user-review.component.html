@@ -1,0 +1,13 @@
+<figure class="review" *ngFor="let review of reviews">
+  <blockquote class="review__text">
+    {{ review.review }}
+  </blockquote>
+  <figcaption class="review__user">
+    <img src="{{ review.image }}" alt="{{ review.name}}" class="review__photo">
+    <div class="review__user-box">
+      <p class="review__user-name">{{ review.name }}</p>
+      <p class="review__user-date">{{ review.date | date }}</p>
+    </div>
+    <div class="review__rating">{{ review.rating }}</div>
+  </figcaption>
+</figure>

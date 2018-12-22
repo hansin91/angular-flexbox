@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Review } from '../../models/review';
+import { ReviewService } from '../../services/review.service';
 
 @Component({
 	selector: 'app-hotel-detail',
@@ -8,7 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class HotelDetailComponent implements OnInit {
 	private list: string[];
 	private friendPhotos: any[];
-	constructor() {
+	private reviews: Review[] = [];
+	constructor(private reviewService: ReviewService) {
 		this.list = [
 			'Close to the beach',
 			'Breakfast included',
@@ -38,6 +41,8 @@ export class HotelDetailComponent implements OnInit {
 				image: 'assets/img/user-6.jpg'
 			}
 		];
+
+		this.reviews = this.reviewService.getReviews();
 	}
 
 	ngOnInit() {}

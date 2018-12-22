@@ -1,3 +1,4 @@
 export class Menu {
-	constructor(public name?: string, public icon?: string) {}
+	name: string;
+	icon: string;
 }
