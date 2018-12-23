@@ -1,0 +1,70 @@
+.container {
+	max-width: 120rem;
+	margin: 8rem auto;
+	background-color: var(--color-grey-light-2);
+	box-shadow: var(--shadow-dark);
+	min-height: 50rem;
+
+	@include screen(big-desktop) {
+		margin: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.content {
+	display: flex;
+	@include screen(tablet) {
+		flex-direction: column;
+	}
+}
+
+.header {
+	font-size: 1.4rem;
+	height: 7rem;
+	background-color: #fff;
+	border-bottom: var(--line);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	@include screen(small-mobile) {
+		flex-wrap: wrap;
+		align-content: space-around;
+		height: 11rem;
+	}
+}
+
+.detail {
+	font-size: 1.4rem;
+	display: flex;
+	padding: 4.5rem;
+	background-color: var(--color-grey-light-1);
+	border-bottom: var(--line);
+
+	@include screen(tablet) {
+		padding: 3rem;
+	}
+
+	@include screen(mobile) {
+		flex-direction: column;
+	}
+}
+
+.description {
+	background-color: #fff;
+	box-shadow: var(--shadow-light);
+	padding: 3rem;
+	flex: 0 0 60%;
+	margin-right: 4.5rem;
+
+	@include screen(tablet) {
+		padding: 2rem;
+		margin-right: 3rem;
+	}
+	@include screen(mobile) {
+		margin-right: 0;
+		margin-bottom: 3rem;
+	}
+}

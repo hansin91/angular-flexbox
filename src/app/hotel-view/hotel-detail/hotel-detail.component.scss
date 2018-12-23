@@ -1,19 +1,3 @@
-.detail {
-	font-size: 1.4rem;
-	display: flex;
-	padding: 4.5rem;
-	background-color: var(--color-grey-light-1);
-	border-bottom: var(--line);
-}
-
-.description {
-	background-color: #fff;
-	box-shadow: var(--shadow-light);
-	padding: 3rem;
-	flex: 0 0 60%;
-	margin-right: 4.5rem;
-}
-
 .user-reviews {
 	flex: 1;
 	display: flex;
@@ -51,15 +35,18 @@
 		margin-right: .7rem;
 
 		// Older browsers
-		//background-image: url(../../../assets/img/chevron-thin-right.svg);
-		//background-size: cover;
+		background-image: url(../../../assets/img/chevron-thin-right.svg);
+		background-size: cover;
 
 		// Newer browsers -- masks
-		background-color: var(--color-primary);
-		-webkit-mask-image: url(../../../assets/img/chevron-thin-right.svg);
-		-webkit-mask-size: cover;
-		mask-image: url(../../../assets/img/chevron-thin-right.svg);
-		mask-size: cover;
+		@supports (-webkit-mask-image: url()) or (mask-image: url()) {
+			background-color: var(--color-primary);
+			-webkit-mask-image: url(../../../assets/img/chevron-thin-right.svg);
+			-webkit-mask-size: cover;
+			mask-image: url(../../../assets/img/chevron-thin-right.svg);
+			mask-size: cover;
+			background-image: none;
+		}
 	}
 }
 
@@ -74,6 +61,10 @@
 		margin-right: auto;
 	}
 
+	&__friends {
+		display: flex;
+	}
+
 	&__photo {
 		box-sizing: content-box;
 		height: 4rem;
@@ -82,7 +73,7 @@
 		border: 3px solid #fff;
 
 		&:not(:last-child) {
-			margin-right: -1.5rem;
+			margin-right: -2rem;
 		}
 	}
 }

@@ -1,0 +1,47 @@
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px;
+$bp-medium: 56.25em; // 900px;
+$bp-small: 37.5em; // 600px;
+$bp-smaller: 31.25rem; // 500px;
+$bp-smallest: 27rem; // 432px;
+$bp-extra-small: 20rem; //320px;
+
+@mixin screen($breakpoint) {
+	@if $breakpoint == big-desktop {
+		@media only screen and (max-width: $bp-largest) {
+			@content;
+		}
+	}
+	@if $breakpoint == desktop {
+		@media only screen and (max-width: $bp-large) {
+			@content;
+		}
+	}
+	@if $breakpoint == tablet {
+		@media only screen and (max-width: $bp-medium) {
+			@content;
+		}
+	}
+	@if $breakpoint == mobile {
+		@media only screen and (max-width: $bp-small) {
+			@content;
+		}
+	}
+	@if $breakpoint == small-mobile {
+		@media only screen and (max-width: $bp-smaller) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == small-screen {
+		@media only screen and (max-width: $bp-smallest) {
+			@content;
+		}
+	}
+
+	@if $breakpoint == extra-small {
+		@media only screen and (max-width: $bp-extra-small) {
+			@content;
+		}
+	}
+}
