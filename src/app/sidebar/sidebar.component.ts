@@ -8,7 +8,7 @@ import { Menu } from '../models/menu';
 	styleUrls: [ './sidebar.component.scss' ]
 })
 export class SidebarComponent implements OnInit {
-	private menus: Menu[];
+	public menus: Menu[];
 	constructor(private menuService: MenuService) {
 		this.menus = this.menuService.getSidebarMenus();
 	}

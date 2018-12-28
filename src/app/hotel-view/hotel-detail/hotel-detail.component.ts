@@ -8,9 +8,9 @@ import { ReviewService } from '../../services/review.service';
 	styleUrls: [ './hotel-detail.component.scss' ]
 })
 export class HotelDetailComponent implements OnInit {
-	private list: string[];
-	private friendPhotos: any[];
-	private reviews: Review[] = [];
+	public list: string[];
+	public friendPhotos: any[];
+	public reviews: Review[] = [];
 	constructor(private reviewService: ReviewService) {
 		this.list = [
 			'Close to the beach',

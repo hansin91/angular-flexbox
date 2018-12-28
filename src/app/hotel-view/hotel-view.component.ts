@@ -8,7 +8,7 @@ import { Hotel } from '../models/hotel';
 	styleUrls: [ './hotel-view.component.scss' ]
 })
 export class HotelViewComponent implements OnInit {
-	private hotels: Hotel[] = [];
+	public hotels: Hotel[] = [];
 	constructor(private hotelService: HotelService) {
 		this.hotels = this.hotelService.getHotels();
 	}
