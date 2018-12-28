@@ -14,6 +14,8 @@ import { UserReviewComponent } from './hotel-view/user-review/user-review.compon
 import { HotelService } from './services/hotel.service';
 import { MenuService } from './services/menu.service';
 import { ReviewService } from './services/review.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
 	declarations: [
@@ -27,7 +29,7 @@ import { ReviewService } from './services/review.service';
 		HotelDetailComponent,
 		UserReviewComponent
 	],
-	imports: [ BrowserModule, AppRoutingModule ],
+	imports: [ BrowserModule, AppRoutingModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }) ],
 	providers: [ HotelService, MenuService, ReviewService ],
 	bootstrap: [ AppComponent ]
 })
