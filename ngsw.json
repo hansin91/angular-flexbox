@@ -1,0 +1,121 @@
+{
+  "configVersion": 1,
+  "index": "https://hansin91.github.io/angular-flexbox/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://hansin91.github.io/angular-flexbox/favicon.ico",
+        "https://hansin91.github.io/angular-flexbox/index.html",
+        "https://hansin91.github.io/angular-flexbox/main.210d15e57c7e5990f66d.js",
+        "https://hansin91.github.io/angular-flexbox/polyfills.c6871e56cb80756a5498.js",
+        "https://hansin91.github.io/angular-flexbox/runtime.ec2944dd8b20ec099bf3.js",
+        "https://hansin91.github.io/angular-flexbox/styles.2a881d3a4ebdbf0c7983.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/aircraft-take-off.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/bookmark.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/chat.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/chevron-thin-right.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/home.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/key.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/location-pin.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/magnifying-glass.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/map.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/SVG/star.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-128x128.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-144x144.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-152x152.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-192x192.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-384x384.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-512x512.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-72x72.png",
+        "https://hansin91.github.io/angular-flexbox/assets/icons/icon-96x96.png",
+        "https://hansin91.github.io/angular-flexbox/assets/img/chevron-thin-right.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/favicon.png",
+        "https://hansin91.github.io/angular-flexbox/assets/img/hotel-1.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/hotel-2.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/hotel-3.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/logo.png",
+        "https://hansin91.github.io/angular-flexbox/assets/img/sprite.svg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/text.txt",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user-1.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user-2.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user-3.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user-4.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user-5.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user-6.jpg",
+        "https://hansin91.github.io/angular-flexbox/assets/img/user.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/aircraft-take-off.svg": "611fcd6ec75cbd6f76c388a7dbedf93b2584a71e",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/bookmark.svg": "cb68f259d9876e8377d5441fda512ec86d06467e",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/chat.svg": "e16344975d5d58c4bc07eaac826207e2c0d536a2",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/chevron-thin-right.svg": "0739e16e0f19c2e3f3c44ee1d9ed3f4c5f40a3cd",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/home.svg": "8ec7c5fb3835427778e75c880e01d6e52fe75da3",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/key.svg": "7792a01dd9a2f709078820e26656e00cf96fca35",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/location-pin.svg": "0c81ab150e3ce4db5edf56a600894157654f46ec",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/magnifying-glass.svg": "33188d66ab2d29eb9e9394ed6c5c5cf0b4f8e599",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/map.svg": "1b4273a2f7578d54aff9c4aca113cae3b5bb4c3c",
+    "https://hansin91.github.io/angular-flexbox/assets/SVG/star.svg": "da5c7fb1cc7ab4cb0c2d13a8a5e6e8183b253f5b",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://hansin91.github.io/angular-flexbox/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://hansin91.github.io/angular-flexbox/assets/img/chevron-thin-right.svg": "8f6e4a1297cda11c6b16e8ec7642170e865bfd9b",
+    "https://hansin91.github.io/angular-flexbox/assets/img/favicon.png": "27e60db4aade77cb91fd539421df8096e0b0c1c0",
+    "https://hansin91.github.io/angular-flexbox/assets/img/hotel-1.jpg": "27ea8afa5c5e150af3523f551cfd2eba209e89fb",
+    "https://hansin91.github.io/angular-flexbox/assets/img/hotel-2.jpg": "1f4d63133e053e1ceae8b5b1a3df1a8d1f10eabf",
+    "https://hansin91.github.io/angular-flexbox/assets/img/hotel-3.jpg": "306fbebe4e342d521d462b3d34b4af06f64d7840",
+    "https://hansin91.github.io/angular-flexbox/assets/img/logo.png": "734650e2711139522ffa18a4e6e47574405c9fcf",
+    "https://hansin91.github.io/angular-flexbox/assets/img/sprite.svg": "f4e9a1d9e57b0019258abb3f3291ca5f7b689e99",
+    "https://hansin91.github.io/angular-flexbox/assets/img/text.txt": "18d1ca8ac0275442c7559ba8d64673fd18a105a7",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user-1.jpg": "b1e60802e49a320450bac4ee5450f42ba518e7d5",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user-2.jpg": "eafc592aefa3dde144fb8139773ec65b223896c9",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user-3.jpg": "e884956cac166c895a09316cc5bffcd1ad74f6be",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user-4.jpg": "09edbc1c2ea2f60897be8368f54cc9d55bbefd21",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user-5.jpg": "32a8c15532d4f657e71e9c0b3caff5ba378b9fba",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user-6.jpg": "38999dff417fed49ced1ab53924c7c4786836224",
+    "https://hansin91.github.io/angular-flexbox/assets/img/user.jpg": "83507507470651ac7781d942186f11cbbf4fed84",
+    "https://hansin91.github.io/angular-flexbox/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://hansin91.github.io/angular-flexbox/index.html": "90d9d7ee8e6e3c1976da16d6956c6dc33e4a81db",
+    "https://hansin91.github.io/angular-flexbox/main.210d15e57c7e5990f66d.js": "6670fbd4e5e1b9d325816a45cf5c77d9dfca403e",
+    "https://hansin91.github.io/angular-flexbox/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "https://hansin91.github.io/angular-flexbox/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://hansin91.github.io/angular-flexbox/styles.2a881d3a4ebdbf0c7983.css": "2fe245bfde6c0a2d4f585a4467e2df25985add4e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
